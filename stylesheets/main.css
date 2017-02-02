@@ -1,0 +1,36 @@
+* {box-sizing: border-box;}
+
+.nav-wrapper {
+	border-bottom: 1px solid #48b563;
+
+}
+
+.nav-main li {
+	border-bottom: 1px solid #f7a274;
+	padding: 20px;
+}
+
+.nav-main li:last-child {
+	border-bottom-style: none; 
+}
+
+.nav-main li a {
+	display: block;
+	padding: 20px;
+}
+
+@media all and (min-width: 480px) {
+	.nav-main li {
+		display: inline-block;
+		border-bottom-style: none;
+	}
+	 .is-mobile{
+	 	display:none
+	 }
+
+}
+
+section {
+	height: 600px;
+	border-bottom: 1px solid black;
+}
