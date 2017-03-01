@@ -3,7 +3,7 @@ body {
 	margin-top: 96px;
 }
 .nav-wrapper {
-	border-bottom: 1px solid #48b563;
+	/*border-bottom: 1px solid #48b563;*/
 	position: fixed;
 	background-color: #fff;
 	width: 100%;
@@ -12,16 +12,20 @@ body {
 }
 .nav-main {
 	display: none;
+	/*border-bottom: 1px solid #f7a274;*/
+	padding: 20px;
+
 }
 
-.nav-main li {
+/*.nav-main li {
 	border-bottom: 1px solid #f7a274;
 	padding: 20px;
-}
+	text-align: center;
+}*/
 
-.nav-main li:last-child {
+/*.nav-main li:last-child {
 	border-bottom-style: none; 
-}
+}*/
 
 .nav-main li a {
 	display: block;
@@ -68,4 +72,41 @@ section {
     background-color: rgba(255,255,255,.5);
     font-family: 'Source Sans Pro', sans-serif;
 
+}
+
+.button {
+    background-color: #fff; 
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;  Safari 
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-top: 150px
+    font-weight: bolder;
+
+}
+
+.button a {
+    color: #2d8ec6;
+    text-decoration: none;
+
+}
+
+.button a:hover {
+    color: white;
+}
+
+.button {
+    background-color: #fff;
+    color: #0072ac; 
+}
+
+.button:hover {
+    background-color: #f49033;
+    color: white;
 }
