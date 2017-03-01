@@ -2,6 +2,9 @@
 
 .nav-wrapper {
 	border-bottom: 1px solid #48b563;
+	position: fixed;
+	background-color: #fff;
+	width: 100%;
 
 }
 
@@ -29,6 +32,11 @@
 	 }
 
 }
+ 
+.content-whole {
+	padding-top: 100px;
+}
+
 
 section {
 	height: 600px;
@@ -37,9 +45,9 @@ section {
 
 .content-wrapper {
     width: 1000px;
-    height: 700px;
-    padding-top: 80px;
-    margin: auto;
+    height: 650px;
+    padding-top: 250px;
+    /*margin: auto;*/
     background: url('../images/image02.jpg');
     background-repeat: no-repeat;
 }

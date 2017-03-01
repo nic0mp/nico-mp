@@ -7,49 +7,44 @@
 		<link rel="stylesheet" href="stylesheets/reset.css">
 		<link rel="stylesheet" href="stylesheets/main.css">	
  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+ 		<script src="js/jquery.scrollTo.js"></script>
 		<script src="js/main.js"></script>
 		
 	</head>
 	<body>
 		<nav class="nav-wrapper"> 
-			<div class="is-mobile hamburger">☰</div>        
+			<div class="is-mobile hamburger js-menu">☰</div>        
 				<ul class="nav-main">           
-					<li><a href="#page-blog">Blog</a></li>           
+					<li><a href="#page-top">Welcome</a></li>           
 					<li><a href="#page-resume">Resume</a></li>         
 					<li><a href="#page-information">Information</a></li>         
-					<li><a href="#page-contact">Contact</a></li>         
+					<li><a href="#page-contact" class="js-link-contact">Contact</a></li>         
 					<li><a href="#page-more">More</a></li>         
 				</ul>       
 		</nav>
-
-		<div class="content-wrapper">
-			<div class="content-inside">
-				<h1 class="nico">NICO PINGUEL</h1> 
-				<p id="desc">
-					I travel. I cook. I photograph. I renovate my house. I do things.
-				</p>
+		<div class="content-whole">
+		<section id="page-top">
+			<div class="content-wrapper">
+				<div class="content-inside">
+					<h1 class="nico">NICO PINGUEL</h1> 
+					<p id="desc">
+						I travel. I cook. I photograph. I renovate my house. I do things.
+					</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>	
 			</div>	
-		</div>	
-
-		<section id="page-blog">
-			<h2>Contact</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-		</section>
 		
-		<section id="page-resume">
-			<h2>Resume</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		</section>
+		<div class="content-whole">
+
+		</div>
+		
+		
 		
 		<section id="page-information">
 			<h2>Information</h2>
@@ -80,5 +75,6 @@
 			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		</section>
+		</div>
 	</body>
 </html>
