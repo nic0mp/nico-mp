@@ -1,11 +1,17 @@
 * {box-sizing: border-box;}
-
+body {
+	margin-top: 96px;
+}
 .nav-wrapper {
 	border-bottom: 1px solid #48b563;
 	position: fixed;
 	background-color: #fff;
 	width: 100%;
+	top: 0;
 
+}
+.nav-main {
+	display: none;
 }
 
 .nav-main li {
@@ -23,6 +29,9 @@
 }
 
 @media all and (min-width: 480px) {
+	.nav-main {
+		display: block;
+	}
 	.nav-main li {
 		display: inline-block;
 		border-bottom-style: none;
@@ -33,9 +42,9 @@
 
 }
  
-.content-whole {
+/*.content-whole {
 	padding-top: 100px;
-}
+}*/
 
 
 section {
