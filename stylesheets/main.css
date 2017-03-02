@@ -3,7 +3,7 @@ body {
 	margin-top: 96px;
 }
 .nav-wrapper {
-	/*border-bottom: 1px solid #48b563;*/
+	border-bottom: 1px solid #48b563;
 	position: fixed;
 	background-color: #fff;
 	width: 100%;
@@ -15,6 +15,7 @@ body {
 	/*border-bottom: 1px solid #f7a274;*/
 	padding: 20px;
 	text-align: center;
+	font-family: helvetica;
 
 }
 
@@ -51,6 +52,9 @@ body {
 	padding-top: 100px;
 }*/
 
+h2 {
+	text-align: center;
+}
 
 section {
 	height: 600px;
@@ -75,15 +79,24 @@ section {
 
 }
 
+.psection {
+	margin-top: 60px;
+	background-color: red;
+	height: 600px;
+	padding: 20px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
 .button {
     background-color: #fff; 
     border: none;
     color: white;
-    padding: 16px 32px;
+    padding: 16px 30px;
     text-align: center;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: 4px 7px;
     -webkit-transition-duration: 0.4s;  Safari 
     transition-duration: 0.4s;
     cursor: pointer;
@@ -110,4 +123,8 @@ section {
 .button:hover {
     background-color: #f49033;
     color: white;
+}
+
+h1 {
+	text-align: center;
 }
