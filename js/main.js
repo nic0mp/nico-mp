@@ -34,7 +34,7 @@ OPW.utilities = {
 			//use that variable in our $.scrollTo() function
 			$(window).scrollTo(pageToScrollTo, 800 , {offset:-96});
 		});
-
+  
 	}
 }
 
