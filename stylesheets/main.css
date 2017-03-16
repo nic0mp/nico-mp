@@ -1,7 +1,7 @@
 * {box-sizing: border-box;}
 body {
 	margin-top: 96px;
-	font-family: helvetica;
+	font-family: 'Arimo', sans-serif;
 }
 .nav-wrapper {
 	border-bottom: 1px solid #48b563;
@@ -17,7 +17,7 @@ body {
 	/*border-bottom: 1px solid #f7a274;*/
 	padding: 20px;
 	/*text-align: center;*/
-	font-family: helvetica;
+	font-family: 'Arimo', sans-serif;
 
 }
 
@@ -41,6 +41,7 @@ body {
 	
 	.nico {
 		text-align: center;
+
 	}	 
 
 	 #content-wrapper {
@@ -87,7 +88,8 @@ section {
 	background-color: rgba(255,255,255,.45);
 }
 .nico {
-	font-family: Helvetica;
+	font-family: 'Arimo', sans-serif;
+	font-weight: bolder;
 	padding: 20px;
 	float: right;
 }
@@ -116,8 +118,9 @@ section {
 
 .psection {
 	margin: auto;
-	margin-top: 30px;
-	background-color: red;
+	margin-top: 20px;
+	/*margin-bottom: 20px;*/
+	background-color: #fcf9fa;
 	height: 100%;
 	padding: 20px;
 	width: 80%;
@@ -136,8 +139,8 @@ section {
     display: inline-block;
     font-size: 16px;
     margin: 4px 7px;
-    /*-webkit-transition-duration: 1s;  Safari 
-    transition-duration: 1s;*/
+    -webkit-transition-duration: 1s;  Safari 
+    transition-duration: 1s;
     cursor: pointer;
     margin-top: 150px
     font-weight: bolder;
@@ -184,7 +187,7 @@ h1 {
 #top {
 	text-align: center;
 	border-bottom: 1px solid black;
-	/*padding-top: 10px;*/
+	padding-top: 10px;
 }
 
 #tab-one {
@@ -198,7 +201,10 @@ h1 {
 	height: 600px;
 }
 
-
+.table-model {
+	padding-top: 15px;
+	text-align: center;
+}
  
 
 
