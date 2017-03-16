@@ -16,7 +16,7 @@ body {
 	display: none;
 	/*border-bottom: 1px solid #f7a274;*/
 	padding: 20px;
-	text-align: center;
+	/*text-align: center;*/
 	font-family: helvetica;
 
 }
@@ -38,6 +38,10 @@ body {
 	 .is-mobile {
 	 	display:none
 	 }
+	
+	.nico {
+		text-align: center;
+	}	 
 
 	 #content-wrapper {
 	 	height: 100%;
@@ -69,7 +73,7 @@ section {
     background-size: cover;
 }
 
-.shape-container {
+#shape-container {
 	/*centers container*/
 	position: relative;
   	top: 50%;
@@ -77,19 +81,23 @@ section {
   	/*centers container*/
   	margin: auto;
 	width: 80%;
+	height: 70%;
 	padding: 20px;
 	background-color: rgba(255,255,255,.45);
 }
 .nico {
 	font-family: Helvetica;
 	padding: 20px;
+	float: right;
 }
+
 .jump {
+	float: right;
 	display: block;
-	margin-right: auto;
-	margin-left: auto;
-	width: 60%;
-	padding-bottom: 10px;
+	/*margin-right: auto;
+	margin-left: auto;*/
+	width: 50%;
+	/*padding-bottom: 10px;*/
 }
 
 #top {
