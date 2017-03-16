@@ -58,6 +58,7 @@ body {
 h2 {
 	text-align: center;
 	padding-top: 20px;
+	padding-bottom: 10px;
 }
 
 section {
@@ -114,12 +115,12 @@ section {
 }
 
 .psection {
+	margin: auto;
 	margin-top: 30px;
 	background-color: red;
 	height: 100%;
 	padding: 20px;
-	margin-left: 15px;
-	margin-right: 15px;
+	width: 80%;
 }
 
 .top {
@@ -172,7 +173,7 @@ h1 {
 	display: inline;
 	/*width: 20%;*/
 	/*max-width: 200px;*/
-	border: 1px solid white;
+	border: 1px solid grey;
 	margin-bottom: 15px;
 }
 
@@ -182,11 +183,14 @@ h1 {
 
 #top {
 	text-align: center;
-	border: 1px solid black;
+	border-bottom: 1px solid black;
+	/*padding-top: 10px;*/
 }
 
 #tab-one {
-	border: 1px solid black;
+	/*border: 1px solid black;*/
+	padding: 15px;
+
 	/*height: 600px;*/
 }
 
