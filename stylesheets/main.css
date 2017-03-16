@@ -68,11 +68,13 @@ section {
 
 
 
-#tab-top{
+#welcome{
+
 	padding: 30px;
 	background: url('../images/image02.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    height: 60%;
 }
 
 #shape-container {
