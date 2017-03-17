@@ -44,6 +44,43 @@ console.log(OPW)
 
 $(document).ready(function(){
 	OPW.utilities.listen();
+	
+	var modal = function(state, imgToShow){
+
+		// if state === 'open' , fade it in
+		if (state === 'open'){
+			$('.modal-wrapper').fadeIn(function(){
+				$('body').addClass('modal-on')
+				//update modal-content to imgToShow
+				$('.modal-content img').attr('src', imgToShow);
+			});
+		} else {
+			//fade it out
+			$('.modal-wrapper').fadeOut(function(){
+				$('body').removeClass('modal-on');
+				$('.modal-content img').attr('src', '');
+			});
+		}	
+	};	
+	// invoke it
+	// modal();
+
+	//attach a click event to an anchor in our dom 
+		
+	$('.js-modal-open').on('click', function(event){
+		event.preventDefault()
+		var imgToShow = $(this).data('img')
+		modal('open', imgToShow);
+	});
+
+	// attach a click event to our modal close btn
+	$('.js-modal-close').on('click', function(){
+		modal('close')
+	})
+
+	$('.modal-wrapper').on('click', function(){
+		modal('close')
+	})			
 
 }); //close
 
