@@ -108,12 +108,12 @@ h2 {
 }
 
 section {
-	border-bottom: 3px solid green;
+	/*border-bottom: 3px solid green;*/
 }
 
 
 
-#welcome {
+#welcome-container {
 
 	padding: 30px;
 	background: url('../images/image01.jpg');
@@ -142,7 +142,7 @@ section {
 	width: 50%;
 	height: 15%;
 	/*background-color: rgba(255,255,255,.25);*/
-	border-bottom: 3px solid white;
+	border-bottom: 3px solid #cce6fc;
 }
 
 #shape-container {
@@ -221,6 +221,28 @@ h1 {
 	padding: 15px;
 
 	/*height: 600px;*/
+}
+
+#contact-container {
+	padding: 30px;
+	background: url('../images/image02.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60%;
+}
+
+#shape-container-contact {
+	/*centers container*/
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+  	/*centers container*/
+  	margin: auto;
+	width: 60%;
+	height: 40%;
+	/*padding: 20px;*/
+	background-color: rgba(255,255,255,.40);
+
 }
 
 #contact {
