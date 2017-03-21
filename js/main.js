@@ -32,7 +32,7 @@ OPW.utilities = {
 			//store $(this).attr('href') in a variable
 			var pageToScrollTo = $(this).attr('href');
 			//use that variable in our $.scrollTo() function
-			$(window).scrollTo(pageToScrollTo, 800 , {offset:-96});
+			$(window).scrollTo(pageToScrollTo, 800 , {offset:-120});
 		});
   
 	}

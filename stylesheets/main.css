@@ -1,12 +1,12 @@
 * {box-sizing: border-box;}
 body {
-	margin-top: 96px;
+	margin-top: 120px;
 	font-family: 'Arimo', sans-serif;
 }
 .nav-wrapper {
-	border-bottom: 1px solid #48b563;
+	/*border-bottom: 1px solid #48b563;*/
 	position: fixed;
-	background-color: #fff;
+	background-color: rgba(255,255,255,1);
 	width: 100%;
 	top: 0;
 	z-index: 100;
@@ -63,7 +63,7 @@ li {
 }
 
 .button:hover {
-    background-color: #f49033;
+    background-color: #ffe359;
     color: white;
 }
 
@@ -104,7 +104,7 @@ li {
 h2 {
 	text-align: center;
 	padding-top: 20px;
-	padding-bottom: 10px;
+	padding-bottom: 20px;
 }
 
 section {
@@ -187,7 +187,7 @@ section {
 	background-color: #fcf9fa;
 	height: 100%;
 	padding: 20px;
-	width: 80%;
+	width: 70%;
 }
 
 .top {
@@ -202,13 +202,13 @@ h1 {
 	display: inline;
 	/*width: 20%;*/
 	/*max-width: 200px;*/
-	border: 1px solid grey;
+	border: 1px solid #d8d5c3;
 	margin-bottom: 15px;
 }
 
-.img-special {
+/*.img-special {
 	border-color: 3px solid green;
-}
+}*/
 
 #top {
 	text-align: center;
@@ -234,10 +234,10 @@ iframe {
 
 #contact-container {
 	padding: 30px;
-	background: url('../images/image02.jpg');
+	background: url('../images/image04.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 60%;
+    height: 50%;
 }
 
 #shape-container-contact {
@@ -247,8 +247,8 @@ iframe {
   	transform: translateY(-50%);
   	/*centers container*/
   	margin: auto;
-	width: 60%;
-	height: 40%;
+	width: 80%;
+	height: 60%;
 	/*padding: 20px;*/
 	background-color: rgba(255,255,255,.40);
 
@@ -259,7 +259,8 @@ iframe {
 }
 
 .table-model {
-	padding-top: 15px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	text-align: center;
 }
  
@@ -306,7 +307,11 @@ body.modal-on {
 	top: 10px;
 }
 
-
+.button4 {
+    background-color: #d3dae5;
+    margin-left: 265px;
+     margin: none;
+}
 
 
 
