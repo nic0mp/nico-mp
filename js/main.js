@@ -33,7 +33,14 @@ OPW.utilities = {
 			var pageToScrollTo = $(this).attr('href');
 			//use that variable in our $.scrollTo() function
 			$(window).scrollTo(pageToScrollTo, 800 , {offset:-120});
+			var w = $(window).width();
+			if (w < 480) {
+				$('.nav-main').slideToggle();
+			}
+				
+			//close toggle after clicking
 		});
+
   
 	}
 }
