@@ -177,14 +177,12 @@ h1 {
 #tab-one {
 	/*border: 1px solid black;*/
 	padding: 15px;
-
 	/*height: 600px;*/
 }
 
 iframe {
     /*display: block;*/
     /*margin: auto;*/
-    
     /*height: 100%;*/
     width:100%;
 }
