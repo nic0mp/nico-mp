@@ -42,7 +42,7 @@ li {
     cursor: pointer;
     margin-top: 150px
     font-weight: bolder;
-    transition: background-color 1s;
+    /*transition: background-color 1s;*/
     width: 100%;
 }
 
